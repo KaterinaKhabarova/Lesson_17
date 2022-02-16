@@ -1,0 +1,680 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
+[class*="__container"] {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+.wrapper {
+   background: #f5f5f5;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+   font-family: "Roboto", sans-serif;
+   color: #fff;
+   background-image: url("../img/background_image.svg");
+   background-repeat: no-repeat;
+   background-position: top center;
+   flex-wrap: wrap;
+}
+.header {
+   display: flex;
+   flex-direction: column;
+}
+.main {
+   flex-grow: 1;
+}
+.header:not(:last-child) {
+   margin-bottom: 126px;
+}
+.appointment__container {
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding: 26px 0px 0px 0px;
+   width: 100%;
+   row-gap: 15px;
+}
+.appointment__container:not(:last-child) {
+   margin-bottom: 27px;
+}
+.appointment__logo {
+   display: flex;
+   align-items: center;
+   max-width: 174px;
+   align-self: flex-start;
+}
+.appointment__logo:not(:last-child) {
+   margin-right: 256px;
+}
+.appointment__logo-img:not(:last-child) {
+   margin-right: 10px;
+}
+.appointment__boarding-hours,
+.appointment__call-us {
+   display: flex;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 1.83;
+   letter-spacing: 0.15px;
+   color: #ffffff;
+}
+.appointment__call-us {
+   font-weight: 500;
+}
+.appointment__call-us:not(:last-child) {
+   margin-right: 32px;
+}
+.appointment__boarding-hours:not(:last-child) {
+   margin-right: 30px;
+}
+.appointment__clock-logo,
+.appointment__phone-logo {
+   align-self: flex-start;
+}
+.appointment__clock-logo:not(:last-child) {
+   margin-right: 12px;
+}
+.appointment__phone-logo:not(:last-child) {
+   margin-right: 10px;
+}
+.button-appointment {
+   cursor: pointer;
+   padding: 9px 33px 9px 35px;
+   background-color: #f2726f;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 2;
+   text-transform: uppercase;
+   color: #ffffff;
+   border-radius: 8px;
+   max-width: 214px;
+   filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+.button-appointment:hover {
+   background-color: #ec605d;
+}
+.main-menu__container {
+   display: flex;
+   width: 100%;
+   column-gap: 37px;
+   background: #ffffff;
+   border-radius: 10px;
+   padding: 15px 48px 15px 40px;
+}
+.menu-button {
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 2;
+   letter-spacing: 0.15px;
+   color: #000000;
+}
+.menu-button:hover {
+   color: #f2726f;
+}
+.main-menu__select-link {
+   display: flex;
+}
+.main-menu__img {
+   align-self: center;
+}
+.menu_link:not(:last-child) {
+   margin-right: 8px;
+}
+.main-menu__icon {
+}
+.main-menu__search-icon,
+.main-menu__cart-icon {
+   cursor: pointer;
+   background: #fff;
+}
+.main-menu__search-icon:not(:last-child) {
+   margin-right: 22px;
+}
+.main-menu__input {
+   width: 26.4%;
+}
+.main-menu__input:not(:last-child) {
+   margin-right: 30px;
+}
+
+.search-input {
+   padding: 5px;
+   width: 100%;
+   background-color: #f5f5f5;
+   border-radius: 5px;
+}
+
+.premier-block__container {
+   display: flex;
+   flex-direction: column;
+   font-weight: 900;
+   font-size: 56px;
+   line-height: 1;
+   color: #ffffff;
+}
+.premier-block__container:not(:last-child) {
+   margin-bottom: 232px;
+}
+.premier-block-title {
+   max-width: 57.1%;
+}
+.premier-block-title:not(:last-child) {
+   margin-bottom: 48px;
+}
+.button__case {
+   align-self: flex-start;
+}
+.description__container {
+   position: relative;
+   padding: 100px 87px 0px 87px;
+   background-color: #5d62b5;
+   max-width: 1020px;
+   border-radius: 40px;
+   display: flex;
+   flex-direction: column;
+   z-index: 1;
+}
+.description__container::before {
+   content: "";
+   position: absolute;
+   background-image: url("../img/design_circles.svg");
+   top: -13%;
+   right: -8%;
+   display: block;
+   width: 19.4%;
+   height: 38%;
+}
+.description__dog-photo::before {
+   content: "";
+   position: absolute;
+   background: url("../img/spot.svg");
+   background-repeat: no-repeat;
+   top: -35%;
+   left: -10%;
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+.description__subtitle {
+   display: flex;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #f5f5f5;
+}
+.description__subtitle:not(:last-child) {
+   margin-bottom: 33px;
+}
+.description__logo {
+}
+.description__subheading {
+   align-self: center;
+}
+.description__title {
+   display: flex;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 1.17;
+   color: #ffffff;
+   max-width: 583px;
+}
+.description__title:not(:last-child) {
+   margin-bottom: 36px;
+}
+.description__text {
+   display: flex;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.15px;
+   color: #f5f5f5;
+   max-width: 846px;
+}
+.description__text:not(:last-child) {
+   margin-bottom: 54px;
+}
+.description__dog-photo {
+   align-self: flex-start;
+   position: relative;
+}
+.description__dog-photo img {
+   border-radius: 40px;
+   max-width: 100%;
+   position: relative;
+   filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+.description__dog-photo {
+   margin: 0px 0px -7.61% 0px;
+}
+.description__container:not(:last-child) {
+   margin-bottom: 0px;
+}
+.beagle__container {
+   padding: 100px 0px 50px 0px;
+   background-color: #29c3be;
+   background-image: url("../img/line.svg");
+   background-repeat: no-repeat;
+   background-position: 90% 20%;
+   max-width: 1440px;
+   display: flex;
+   flex-wrap: wrap;
+   border-radius: 40px;
+   position: relative;
+}
+.beagle__container::before {
+   content: "";
+   position: absolute;
+   background: url("../img/circles_2.svg");
+   background-repeat: no-repeat;
+   top: 30%;
+   left: 0;
+   display: block;
+   width: 20%;
+   height: 90%;
+   overflow: hidden;
+}
+.beagle__container::after {
+   content: "";
+   position: absolute;
+   background: url("../img/tennis_ball.svg");
+   background-repeat: no-repeat;
+   top: 23%;
+   left: 87%;
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+.beagle__image img {
+   max-width: 100%;
+   position: relative;
+}
+.beagle__image::before {
+   content: "";
+   position: absolute;
+   background: url("../img/spot_2.svg");
+   border-radius: 40px;
+   background-repeat: no-repeat;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.beagle__image:not(:last-child) {
+   margin-right: 72px;
+}
+.beagle__title {
+   max-width: 28.5%;
+   font-size: 36px;
+   font-weight: 900;
+   line-height: 1.17;
+   color: #ffffff;
+}
+.beagle__heading:not(:last-child) {
+   margin-bottom: 45px;
+}
+.beagle__button {
+   min-width: 214px;
+}
+
+/* media */
+@media (max-width: 1350.97px) {
+   .beagle__image:not(:last-child) {
+      margin-right: 20px;
+   }
+}
+@media (max-width: 1250.97px) {
+   .beagle__image:not(:last-child) {
+      margin-right: -15px;
+   }
+}
+@media (max-width: 1200.97px) {
+   .beagle__container {
+      flex-direction: column;
+      row-gap: 20px;
+      column-gap: 20px;
+   }
+   .beagle__title {
+      align-self: center;
+      display: flex;
+      max-width: 70%;
+   }
+}
+@media (max-width: 1025.97px) {
+   .wrapper {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+   .appointment__container {
+      justify-content: space-between;
+      /* padding-right: 15px; */
+   }
+   .appointment__logo:not(:last-child) {
+      margin-right: 100px;
+   }
+   .main-menu__input {
+      width: 23%;
+   }
+   .main-menu__input:not(:last-child) {
+      margin-right: -15px;
+   }
+   .main-menu__search-icon:not(:last-child) {
+      margin-right: 5px;
+   }
+   .main-menu__container {
+      padding-right: 10px;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 80px;
+   }
+   .premier-block__container,
+   .header {
+      padding-left: 47px;
+      padding-right: 47px;
+   }
+   .description__container {
+      padding-left: 47px;
+      padding-right: 47px;
+   }
+   .description__container::before {
+      transform: scale(0.7);
+      top: 0;
+      right: 0;
+   }
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 200px;
+   }
+   .beagle__title {
+      max-width: 75%;
+   }
+}
+@media (max-width: 985px) {
+   .main-menu__input:not(:last-child) {
+      margin-right: -25px;
+   }
+   .main-menu__input {
+      width: 18%;
+   }
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 160px;
+   }
+}
+@media (max-width: 930px) {
+   .main-menu__input {
+      width: 15%;
+   }
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 140px;
+   }
+}
+@media (max-width: 915px) {
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 130px;
+   }
+}
+@media (max-width: 895px) {
+   .appointment__container {
+      flex-direction: column;
+      row-gap: 25px;
+   }
+   .wrapper {
+      padding: 15px 10px 15px 15px;
+   }
+   .premier-block__container {
+      font-size: 50px;
+   }
+   .main-menu__container {
+      opacity: 0;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 10px;
+   }
+   .premier-block__container,
+   .header {
+      padding-left: 47px;
+      padding-right: 47px;
+   }
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 100px;
+   }
+   .beagle__container::before {
+      width: 20%;
+      height: 30%;
+   }
+}
+@media (max-width: 820px) {
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 70px;
+   }
+}
+@media (max-width: 800px) {
+   .beagle__container::after {
+      display: none;
+   }
+}
+@media (max-width: 768.97px) {
+   .wrapper {
+      padding: 15px 15px 15px 15px;
+   }
+   .appointment__container {
+      flex-direction: column;
+      width: 100%;
+      row-gap: 20px;
+   }
+   .premier-block__container {
+      font-size: 45px;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 40px;
+   }
+   .main-menu__container {
+      display: none;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 10px;
+   }
+   .premier-block__container,
+   .header {
+      padding-left: 47px;
+      padding-right: 47px;
+   }
+   .premier-block__container:not(:last-child) {
+      margin-bottom: 100px;
+   }
+   .description__container {
+      max-width: 740px;
+      padding-left: 47px;
+      padding-right: 47px;
+   }
+   .description__container::before {
+      display: none;
+   }
+   .description__dog-photo::before {
+      display: none;
+   }
+   .beagle__container::before {
+      width: 20%;
+      height: 20%;
+   }
+   .beagle__title {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+   .beagle__heading:not(:last-child) {
+      margin-bottom: 10px;
+   }
+}
+@media (max-width: 479.98px) {
+   .wrapper {
+      padding: 15px 0px 15px 0px;
+   }
+   .appointment__container {
+      flex-direction: column;
+      width: 100%;
+      row-gap: 15px;
+   }
+   .premier-block__container {
+      font-size: 30px;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 20px;
+   }
+   .main-menu__container {
+      opacity: 0;
+   }
+   .header:not(:last-child) {
+      margin-bottom: 10px;
+   }
+   .premier-block-title {
+      width: 45%;
+   }
+   .premier-block__container,
+   .header {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   .description__container {
+      padding: 20px 10px 0px 0px;
+      border-radius: unset;
+   }
+   .description__title {
+      padding-left: 15px;
+      font-size: 30px;
+      max-width: 400px;
+   }
+   .description__subtitle {
+      padding-left: 15px;
+      padding-right: 10px;
+   }
+   .description__dog-photo img {
+      object-fit: cover;
+      max-width: 440px;
+      object-position: center;
+   }
+   .description__dog-photo {
+      padding: 0px 10px 0px 10px;
+   }
+   .description__text {
+      max-width: 400px;
+      font-size: 20px;
+      padding-left: 15px;
+      padding-right: 10px;
+   }
+   .beagle__container {
+      border-radius: unset;
+   }
+   .beagle__image img {
+      object-fit: cover;
+      max-width: 440px;
+      object-position: center;
+   }
+}
+@media (max-width: 457.98px) {
+   .description__dog-photo img {
+      max-width: 410px;
+   }
+}
+@media (max-width: 391.98px) {
+   .description__text {
+      padding-right: 20px;
+   }
+   .description__title {
+      padding-right: 20px;
+   }
+   .description__dog-photo img {
+      max-width: 360px;
+   }
+   .beagle__image img {
+      object-fit: cover;
+      max-width: 380px;
+      object-position: center;
+   }
+}
+@media (max-width: 375.98px) {
+   .description__title {
+      font-size: 30px;
+      max-width: 370px;
+      padding-left: 15px;
+   }
+   .description__subtitle {
+      padding-left: 15px;
+   }
+   .description__text {
+      max-width: 350px;
+      font-size: 20px;
+      padding-left: 15px;
+   }
+   .wrapper {
+      padding-left: 0px;
+   }
+   .description__dog-photo img {
+      max-width: 360px;
+   }
+   .beagle__title {
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 320.98px) {
+   .premier-block__container,
+   .header {
+      padding-left: 15px;
+      padding-right: 10px;
+   }
+   .premier-block__container {
+      font-size: 30px;
+   }
+   .wrapper {
+      padding-left: 0px;
+   }
+   .description__container {
+      padding: 20px 10px 0px 10px;
+      max-width: 100%;
+   }
+   .description__title {
+      padding-left: 15px;
+      font-size: 30px;
+      max-width: 300px;
+   }
+   .description__subtitle {
+      padding-left: 15px;
+   }
+   .description__text {
+      max-width: 300px;
+      font-size: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+   .description__text:not(:last-child) {
+      margin-bottom: 30px;
+   }
+   .description__title:not(:last-child) {
+      margin-bottom: 20px;
+   }
+   .description__subtitle:not(:last-child) {
+      margin-bottom: 18px;
+   }
+   .description__dog-photo img {
+      max-width: 280px;
+   }
+   .beagle__container {
+      max-width: 100%;
+   }
+   .beagle__container::before {
+      display: none;
+   }
+   .beagle__title {
+      max-width: 90%;
+   }
+   .beagle__image img {
+      object-fit: cover;
+      max-width: 310px;
+      object-position: center;
+   }
+}
